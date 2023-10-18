@@ -1,39 +1,52 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background-color: #f4f4f4;
     margin-top: 50px;
-    font-family: 'Lato';
+    font-family: 'Lato', sans-serif;
 }
 
-.item {
-    background-color: white;
-    padding: 15px;
-    margin-bottom: 15px;
-    border: transparent;
+header {
+    background-color: #a42525;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.content {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
     border-radius: 5px;
-    box-shadow: 0 0 1em #ccc;
-    transition: all .2s ease-in-out;
+    box-shadow: 0 0 5px #ccc;
 }
 
-.item:hover {
-    box-shadow: 0 0 1em #aaa;
-}
-
-.item.completed {
-    text-decoration: line-through;
-}
-
-.toggles {
-    color: black;
-}
-
-.name {
-    padding-top: 3px;
-}
-
-.remove {
-    padding-left: 0;
-}
-
-button:focus {
-    border: 1px solid #333;
+footer {
+    background-color: #bc1a1a;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
 }
