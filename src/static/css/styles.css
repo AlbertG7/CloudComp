@@ -1,52 +1,41 @@
-/* Reset some default styles */
-body, h1, h2, p, ul, li {
-    margin: 0;
-    padding: 0;
+/* Style the header */
+header {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px;
+    text-align: center;
 }
 
-body {
-    background-color: #f4f4f4;
-    margin-top: 50px;
+/* Style the h1 inside the header */
+header h1 {
+    margin: 0;
     font-family: 'Lato', sans-serif;
 }
 
-header {
-    background-color: #a42525;
-    color: #fff;
-    padding: 10px 0;
-    text-align: center;
+/* Style the body and set the background color */
+body {
+    background-color: #f0f0f0;
+    font-family: 'Lato', sans-serif;
 }
 
-header h1 {
-    font-size: 24px;
+/* Style the button */
+#myButton {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
 }
 
-header nav ul {
-    list-style: none;
+/* Add a hover effect to the button */
+#myButton:hover {
+    background-color: #0056b3;
 }
 
-header nav ul li {
-    display: inline;
-    margin: 0 10px;
-}
-
-header nav ul li a {
-    text-decoration: none;
-    color: #fff;
-}
-
-.content {
-    margin: 20px;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 0 5px #ccc;
-}
-
-footer {
-    background-color: #bc1a1a;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
-    font-size: 14px;
+/* Center the button */
+#myButton {
+    display: block;
+    margin: 0 auto;
 }
