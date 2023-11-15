@@ -1,0 +1,41 @@
+/* Style the header */
+header {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Style the h1 inside the header */
+header h1 {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+/* Style the body and set the background color */
+body {
+    background-color: #f0f0f0;
+    font-family: 'Lato', sans-serif;
+}
+
+/* Style the button */
+#myButton {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+/* Add a hover effect to the button */
+#myButton:hover {
+    background-color: #0056b3;
+}
+
+/* Center the button */
+#myButton {
+    display: block;
+    margin: 0 auto;
+}
